@@ -9,8 +9,8 @@ app = Flask(__name__)
 # Настройка CORS для продакшена
 CORS(app, origins=[
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://your-username.github.io"  # замените на ваш GitHub Pages
+    "https://zphc-ai-teacheren.netlify.app/",
+    "https://pronunciation-checker-backend.onrender.com/"  # замените на ваш GitHub Pages
 ])
 
 # Безопасное получение API ключа
